@@ -1,0 +1,81 @@
+:root {
+    --primary-color: #2B1578;
+    --secondary-color: #0894E1;
+    --accent1-color:  #EAB527;
+    --accent2-color: #F6ED10;
+}
+
+body {
+    max-width: 1220px;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--primary-color);
+}
+
+h2 {
+    text-align: left;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--primary-color);
+ }
+
+p {
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--primary-color);
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    }
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hero h1 {
+    position: relative;
+    bottom: 600px;
+    text-align: center;
+    color: white;
+    background: rgba(43, 21, 120, 70%);
+    padding: 10px;
+}
+
+.stats {
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+    /* border: 2px solid var(--accent1-color); */
+    background: rgba(8, 148, 225, 85%);
+    width: 80%;
+    height: 40%;
+}
+.stats img {
+    float: right;
+    width: 400px;
+    height: 245px;
+    padding-right: 15px;
+}
+
+.stats p {
+    color: white;
+    margin-left: 10px;
+}
+
+

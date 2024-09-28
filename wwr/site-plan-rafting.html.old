@@ -8,7 +8,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,9 +22,9 @@
     <h2>Color Palette</h2>
     <img src="images/hex-palette.png" alt="hex-palette" width="400">
     <nav>
-    <a href="https://coolors.co/0894e1-eab527-2b1578-f6ed10">Click here for direct link</a>
+    <a href="https://coolors.co/0894e1-eab527-2b1578-f6ed10">Click here</a>
     </nav>   
-    <h2> Color codes for the following elements:</h2>
+    <h2> Typography </h2>
 
     <h3>Primary-Color - #0894E1 Celestial Blue</h3>
     <h3>Secondary-Color - #EAB527 Xanthous</h3>
@@ -32,7 +32,7 @@
     <h3>Accent1-Color - #F6ED10 Aureolin</h3>
 
     <h2>Fonts</h2>
-    <h3>Heading-font - Poppins Thin 100</h3>
+    <h1>Heading-font - Poppins SemiBold 600</h1>
     <h3>Text-font - Poppins Regular 400</h3>
 
 </main>
