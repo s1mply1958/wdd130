@@ -11,17 +11,47 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-h1 {
+header {
+    display: grid;
+    grid-template-columns: 300px auto;
+    align-items: center;
+    background-color: rgba(8, 148, 225, 10%);
+}
+
+header img {
+    width: 250px;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.navigation li {
+    list-style-type: none;
+    padding: 10px;
+    width: 150px;
     text-align: center;
+    border: 1px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    
+}
+
+h1 {
+    text-align: left;
     font-weight: 600;
     font-style: normal;
     color: var(--primary-color);
 }
 
 h2 {
-    text-align: left;
+    text-align: center;
     font-weight: 600;
     font-style: normal;
+    margin: 15px;
     color: var(--primary-color);
  }
 
@@ -35,6 +65,7 @@ p {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 .hero {
@@ -49,33 +80,101 @@ a {
 }
 
 .hero h1 {
-    position: relative;
-    bottom: 600px;
+    margin: 0;
+    padding: 10px 0;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
     text-align: center;
     color: white;
-    background: rgba(43, 21, 120, 70%);
-    padding: 10px;
+    background: rgba(43, 21, 120, 75%);
 }
 
 .stats {
     position: absolute;
-    bottom: 30%;
+    bottom: 20%;
     left: 10%;
-    /* border: 2px solid var(--accent1-color); */
-    background: rgba(8, 148, 225, 85%);
+    background: rgba(8, 148, 225, 90%);
     width: 80%;
-    height: 40%;
+    height: 50%;
 }
+
 .stats img {
+    position: absolute;
     float: right;
-    width: 400px;
-    height: 245px;
-    padding-right: 15px;
+    width: 45%;
+    top: 3.5%;
+    left: 54%;  
 }
 
 .stats p {
+    width: 45%;
     color: white;
-    margin-left: 10px;
+    margin-left: 15px;
+}
+
+.history {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    gap: 10px;
+    background-color:rgba(8, 148, 225, 10%);
+    padding: 15px 0;
+   }
+
+.history p {
+    margin: 15px;
+}
+
+.history h2 {
+    text-align: center;
+}
+
+.history img {
+    width: 30%;
+}
+
+.adventure {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(8, 148, 225, 10%);
+    padding: 15px 0;
+    text-align: center;
+    color:var(--primary-color)
+}
+
+.adventure img {
+    width: 180px;
+    align-content: space-between;
+    text-align: center;
+}
+
+figure {
+    margin: 0;
 }
 
 
+.footer {
+    display: flex;
+    padding: 15px 0;
+    position: relative;
+}
+
+.footer p {
+    margin: 0 auto;
+    align-content: center;
+    padding: 20px 0;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.logo img {
+    justify-content: end;
+    padding: 15px 0;
+}
