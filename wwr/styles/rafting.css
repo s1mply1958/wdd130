@@ -1,6 +1,6 @@
 :root {
     --primary-color: #2B1578;
-    --secondary-color: #0894E1;
+    --secondary-color: #225982;
     --accent1-color:  #EAB527;
     --accent2-color: #F6ED10;
 }
@@ -95,7 +95,7 @@ a {
     position: absolute;
     bottom: 20%;
     left: 10%;
-    background: rgba(8, 148, 225, 90%);
+    background: rgba(34, 89, 130, 90%);
     width: 80%;
     height: 50%;
 }
