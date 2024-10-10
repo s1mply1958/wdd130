@@ -116,24 +116,85 @@ a {
 
 .history {
     display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    gap: 10px;
     background-color:rgba(8, 148, 225, 10%);
-    padding: 15px 0;
-   }
+    padding: 15px;
+}
 
 .history p {
-    margin: 15px;
+    text-align: left;
+    margin: 0;
+    padding-left: 15px;
 }
 
 .history h2 {
     text-align: center;
+    margin: 15px;
 }
 
-.history img {
-    width: 30%;
+.history h4 {
+    color: #2B1578;
+    text-align: left;
+    margin: 0;
+    padding-left: 15px;
+
 }
+
+.history iframe {
+    width: 285px;
+    padding-top: 15px;
+    padding-left: 15px;
+    height: 200px;
+}
+
+.history div {
+    margin: 0;
+    width: 300px; 
+}
+
+
+
+/* ################## */
+
+.contact {
+    display: flex;
+    background-color:rgba(8, 148, 225, 10%);
+    padding: 15px;
+}
+
+.contact p {
+    text-align: left;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.contact h2 {
+    text-align: center;
+    margin: 15px;
+}
+
+.contact h4 {
+    color: #2B1578;
+    text-align: left;
+    margin: 0;
+    padding-left: 15px;
+
+}
+
+.contact iframe {
+    width: 285px;
+    padding-top: 15px;
+    padding-left: 15px;
+    height: 200px;
+}
+
+.contact div {
+    margin: 0;
+    width: 300px; 
+}
+
+
+/* ################## */
+
 
 .adventure {
     display: flex;
@@ -145,13 +206,124 @@ a {
 }
 
 .adventure img {
-    width: 180px;
+    max-width: 200px;
+    /* margin: 15px; */
+    /* padding: 15px; */
+    height: 200px;
     align-content: space-between;
     text-align: center;
 }
 
+/* ################## */
+
+.staff {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(8, 148, 225, 10%);
+    padding: 15px 0;
+    text-align: center;
+    color:var(--primary-color)
+}
+
+.staff img {
+    max-width: 250px;
+    /* margin: 15px; */
+    /* padding: 15px; */
+    height: 200px;
+    align-content: space-between;
+    text-align: center;
+}
+
+
+/* ################## */
+
+
 figure {
     margin: 0;
+}
+
+/* form starts here */
+
+
+form {
+  min-width: 650px;
+  margin: 15px;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+ }
+
+fieldset {
+  display: grid;
+  grid-gap: 0.5rem;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: .5rem; /*added styling*/
+  padding: 1rem;
+  justify-content: center;
+}
+
+legend {
+  padding: 0.5rem;
+  color: navy;
+  font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+  font-family: Helvetica, sans-serif;
+}
+
+label {
+  text-align: right;
+  padding-right: 1rem;
+}
+
+textarea {
+    width: 505px;
+}
+
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+
+button {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+/* form ends here */
+
+
+.wireframe {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.wireframe img {
+    /* width: 30px; */
+    height: 75px;
+    justify-content: start;
+    padding: 15px;
 }
 
 
