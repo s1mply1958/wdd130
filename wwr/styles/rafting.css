@@ -15,7 +15,7 @@ header {
     display: grid;
     grid-template-columns: 300px auto;
     align-items: center;
-    background-color: rgba(8, 148, 225, 10%);
+    background-color: rgba(8, 148, 225, 5%);
 }
 
 header img {
@@ -142,7 +142,7 @@ a {
 
 .history {
     display: flex;
-    background-color:rgba(8, 148, 225, 10%);
+    background-color:rgba(8, 148, 225, 5%);
     padding: 15px;
 }
 
@@ -182,7 +182,7 @@ a {
 
 .contact {
     display: flex;
-    background-color:rgba(8, 148, 225, 10%);
+    background-color:rgba(8, 148, 225, 5%);
     padding: 15px;
 }
 
@@ -226,7 +226,7 @@ h1 {
     display: flex;
     gap: 20px;
     justify-content: space-around;
-    background-color: rgba(8, 148, 225, 10%);
+    background-color: rgba(8, 148, 225, 5%);
     padding: 15px;
     text-align: center;
     color:var(--primary-color)
@@ -245,7 +245,7 @@ h1 {
     display: flex;
     gap: 20px;
     justify-content: space-around;
-    background-color: rgba(8, 148, 225, 10%);
+    background-color: rgba(8, 148, 225, 5%);
     padding: 15px;
     text-align: center;
     color:var(--primary-color)
@@ -288,6 +288,10 @@ h1 {
 figure {
     margin: 0;
     color: var(--primary-color)
+}
+
+.adventure figcaption {
+    font-weight: bold;
 }
 
 
@@ -358,6 +362,38 @@ button:hover {
 }
 
 /* form ends here */
+
+
+/* Table starts here */
+
+table {
+    margin-top: 50px;
+    justify-self: auto;
+    border-collapse: collapse;
+    border: 2px solid var(--primary-color);
+    width: 100%;
+    color: var(--primary-color);
+
+  }
+  
+  
+  tbody > tr:nth-of-type(odd) {
+    background-color: rgba(8, 148, 225, 5%);
+  }
+
+
+  th,
+  td {
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    
+  }
+  
+  td {
+    text-align: center;
+  }
+
+/* Table ends here */
 
 
 .wireframe {
