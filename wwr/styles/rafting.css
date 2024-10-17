@@ -111,11 +111,20 @@ a {
 
 .book {
         text-align: center;
+        padding: 15px;
+        justify-items: center;
+        
+
     }
 
-.book button {
-    width: 300px;
-}
+/* 
+.book h3 {
+    background-color: navy;
+    width: 30%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+} */
 
 .stats {
     position: absolute;
@@ -212,6 +221,7 @@ h1 {
     padding-top: 15px;
     padding-left: 15px;
     height: 200px;
+    border: 0;
 }
 
 .contact div {
@@ -292,7 +302,10 @@ figure {
 
 .adventure figcaption {
     font-weight: bold;
+    
 }
+
+
 
 
 /* form starts here */
@@ -313,7 +326,7 @@ fieldset {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: .5rem; /*added styling*/
   padding: 1rem;
-  justify-content: center;
+  justify-items: center;
 }
 
 legend {
@@ -347,7 +360,7 @@ input[type="checkbox"] {
   vertical-align: bottom;
 }
 
-button {
+.btn {
   margin: 1rem;
   background-color: navy;
   color: #fff;
@@ -355,9 +368,12 @@ button {
   border-radius: 0.5rem;
   padding: 0.75rem;
   font-size: 1.2rem;
+  width: 300px;
+  display: block;
+  font-weight: normal;
 }
 
-button:hover {
+.btn:hover {
   background-color: darkgreen;
 }
 
